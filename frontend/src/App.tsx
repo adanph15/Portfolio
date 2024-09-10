@@ -1,8 +1,7 @@
-
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faSquareEnvelope, faMobileScreenButton } from '@fortawesome/free-solid-svg-icons';
+import Experience from './components/Experience';
+import Technologies from './components/Technologies';
+import Header from './components/Header';
 
 const Skills = () => {
   return (
@@ -18,11 +17,11 @@ const Skills = () => {
           <p>Angular</p>
         </div>
         <div className='flex flex-col items-center p-2'>
-          <img src="JavaScript.png" alt="JavaScript" className='w-16 hover:animate-tada' />
+          <img src="js.png" alt="JavaScript" className='w-16 hover:animate-tada' />
           <p>JavaScript</p>
         </div>
         <div className='flex flex-col items-center p-2'>
-          <img src="TypeScript.png" alt="TypeScript" className='w-16 hover:animate-tada' />
+          <img src="ts.png" alt="TypeScript" className='w-16 hover:animate-tada' />
           <p>TypeScript</p>
         </div>
         <div className='flex flex-col items-center p-2'>
@@ -99,7 +98,7 @@ const About = () => {
       <div className='flex flex-row items-center mt-20'>
         <div className=''>
           <h1 className='text-4xl font-semibold'>Hello, <span className='text-cyan-400 font-bold'>I am Adán</span> </h1>
-          <h2 className='text-lg  bg-gradient-to-bl from-emerald-900 to-cyan-500 bg-clip-text text-transparent'>Junior Full Stack DEVELOPER</h2>
+          <h2 className='text-lg bg-gradient-to-r from-slate-50 to-cyan-600 bg-clip-text text-transparent'>Junior Full Stack DEVELOPER</h2>
         </div>
         {/* <div className='w-1/3'>
           <img src="python.png" alt="sda" className='p-5' />
@@ -123,91 +122,19 @@ const About = () => {
   )
 }
 
-const Info = () => {
-
-  return (
-    <div className='w-1/2'>
-      <div>
-        <button className='bg-red-500 rounded-lg p-5'>Download CV</button>
-      </div>
-
-      <h3 className='text-2xl text-white mt-16 mb-16 font-bold'>Experience</h3>
-
-      <div>
-        <div className='flex flex-row h-32'>
-          <div className='flex flex-col w-1/6 items-center justify-start'>
-            <FontAwesomeIcon className='text-2xl p-2' icon={faLinkedin} />
-            <div className="border-2-2 border-white absolute h-20 border mt-10"></div>
-          </div>
-          <div className='flex flex-col w-5/6'>
-            <p className='text-cyan-400 text-lg font-semibold'>Full Stack Developer <span className='text-white'>-</span> <span className='text-[#DAF1F9] text-base font-normal'>Instituto Tecnológico de Canarias</span></p>
-            <p className='text-sm font-light'>2024</p>
-            <p className='text-base'>Development of an online store with an augmented reality glasses viewer, where users could try on the glasses before buyingthem.</p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div className='flex flex-row h-32'>
-          <div className='flex flex-col w-1/6 items-center'>
-            <FontAwesomeIcon className='text-2xl p-2' icon={faLinkedin} />
-            <div className="border-2-2 border-white absolute h-20 border mt-10"></div>
-          </div>
-          <div className='flex flex-col w-5/6'>
-            <p className='text-cyan-400 text-lg font-semibold'>Full Stack Developer <span className='text-white'>-</span> <span className='text-[#DAF1F9] text-base font-normal'>IES El Rincón</span> <span className='text-white'>-</span> <span className='text-[#DAF1F9] text-base font-normal'>Erasmus Project</span> </p>
-            <p className='text-sm font-light'>2024</p>
-            <p className='text-base'>Development of an application to organize and manage beach cleaning events.This project allowed me to meet people of different nationalities and their work methodologies, practice my English skills with fullcommunication in English, and improve my teamwork experience.</p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div className='flex flex-row h-32'>
-          <div className='flex flex-col w-1/6 items-center'>
-            <FontAwesomeIcon className='text-2xl p-2' icon={faLinkedin} />
-            <div className="border-2-2 border-white absolute h-20 border mt-10"></div>
-
-          </div>
-          <div className='flex flex-col w-5/6'>
-            <p className='text-cyan-400 text-lg font-semibold'>Full Stack Developer <span className='text-white'>-</span> <span className='text-[#DAF1F9] text-base font-normal'>ISS Tecnico Professionale </span> <span className='text-white'>-</span> <span className='text-[#DAF1F9] text-base font-normal'>Italy</span> <span className='text-white'>-</span> <span className='text-[#DAF1F9] text-base font-normal'>Erasmus Intership</span> </p>
-            <p className='text-sm font-light'>2024</p>
-            <p className='text-base'>Development of an online store with an augmented reality glasses viewer, where users could try on the glasses before buyingthem.</p>
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-    </div>
-  )
-}
-
 function App() {
   return (
     <>
-      <div className='h-12  w-full shadow-lg rounded-b-lg text-center backdrop-blur-sm fixed flex flex-row justify-center justify-items-center'>
-        <div className='w-1/3 flex flex-row items-center'>
-          <img src="python.png" alt="sda" className='p-5 w-16 h-16' />
-          <p>Adansadasdasda</p>
-        </div>
-        <div className='w-1/3 flex flex-row'>
-          0
-        </div>
-        <div className='w-1/3 flex flex-row '>
-          <img src="linkedin.png" alt="sda" className='p-5 w-16 h-16' />
-          <img src="github.png" alt="sda" className='p-5 w-16 h-16' />
-        </div>
-      </div>
-      <div className="bg-gradient-to-b from-slate-800 to-teal-900 text-white flex items-center flex-col">
+      <Header />
+      {/* <div className="bg-gradient-to-b from-slate-800 to-teal-900 text-white flex items-center flex-col"> */}
+      <div className="bg-gradient-to-t from-cyan-900 to-slate-900 text-white flex items-center flex-col">
         <About />
-        <Info />
-        <Skills />
+        <Experience />
+        <Technologies />
       </div>
     </>
   );
 }
-
-
 
 
 
