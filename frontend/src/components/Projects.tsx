@@ -10,7 +10,7 @@ const Projects = () => {
                     <div className="w-4/6">
                         <div className="font-medium leading-snug text-slate-200">
                             <div>
-                                <a className=" font-medium  text-slate-200 hover:text-cyan-400 text-base" href="https://tecnokar.it/" target="_blank">
+                                <a className=" font-medium  text-slate-200 hover:text-cyan-400 text-base" href="https://github.com/adanph15/" target="_blank">
                                 Netflix Copy
                                 </a>
                             </div>
@@ -39,7 +39,7 @@ const Projects = () => {
                     <div className="w-4/6">
                         <div className="font-medium leading-snug text-slate-200">
                             <div>
-                                <a className=" font-medium  text-slate-200 hover:text-cyan-400 text-base" href="https://tecnokar.it/" target="_blank">
+                                <a className=" font-medium  text-slate-200 hover:text-cyan-400 text-base" href="https://github.com/adanph15/Impresioname" target="_blank">
                                     Impresioname
                                 </a>
                             </div>
@@ -70,7 +70,7 @@ const Projects = () => {
                     <img src="portfolio.png" alt="si" className="w-2/6 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 "></img>
                     <div className="w-4/6 font-medium leading-snug text-slate-200">
                         <div>
-                            <a className=" font-medium  text-slate-200 hover:text-cyan-400 text-base" href="https://tecnokar.it/" target="_blank">
+                            <a className=" font-medium  text-slate-200 hover:text-cyan-400 text-base" href="https://adanperezportfolio.vercel.app/" target="_blank">
                                 Portfolio
                             </a>
                         </div>
@@ -95,6 +95,5 @@ const Projects = () => {
         </div>
     );
 }
-
 
 export default Projects;

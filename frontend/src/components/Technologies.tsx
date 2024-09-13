@@ -58,7 +58,7 @@ const Technologies = () => {
                             <div className="flex items-center rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">GitHub</div>
                             <div className="flex items-center rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Blender</div>
                             <div className="flex items-center rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Visual Studio</div>
-                            <div className="flex items-center rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Visual Studio Code</div>
+                            <div className="flex items-center rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">VS Code</div>
                             <div className="flex items-center rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Eclipse</div>
                             <div className="flex items-center rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">NetBeans</div>
                         </div>

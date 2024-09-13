@@ -7,7 +7,7 @@ const Experience = () => {
             <div className=" gap-4 mb-12">
                 <div className="font-medium leading-snug text-slate-200">
                     <div>
-                        <a className=" font-medium  text-slate-200 hover:text-cyan-400 text-base" href="https://www.itccanarias.org/" target="_blank">
+                        <a className=" font-medium  text-slate-200 hover:text-cyan-400 text-base" href="https://github.com/adanph15/Impresioname" target="_blank">
                             Full Stack Developer  -  ITC
                         </a>
                     </div>
