@@ -6,7 +6,7 @@ const Projects = () => {
             </div>
             <div className="mb-12">
                 <div className="flex flex-row gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                    <img src="netflix.png" alt="si" className="w-2/6 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 "></img>
+                    <img src="netflix.png" alt="Netflix" className="w-2/6 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 "></img>
                     <div className="w-4/6">
                         <div className="font-medium leading-snug text-slate-200">
                             <div>
@@ -35,7 +35,7 @@ const Projects = () => {
             </div>
             <div className="mb-12">
                 <div className="flex flex-row gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                    <img src="Impresioname.png" alt="si" className="w-2/6 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 "></img>
+                    <img src="impresioname.png" alt="Impresioname" className="w-2/6 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 "></img>
                     <div className="w-4/6">
                         <div className="font-medium leading-snug text-slate-200">
                             <div>
@@ -67,7 +67,7 @@ const Projects = () => {
             </div>
             <div className="mb-12">
                 <div className="flex flex-row gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                    <img src="portfolio.png" alt="si" className="w-2/6 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 "></img>
+                    <img src="portfolio.png" alt="Portfolio" className="w-2/6 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 "></img>
                     <div className="w-4/6 font-medium leading-snug text-slate-200">
                         <div>
                             <a className=" font-medium  text-slate-200 hover:text-cyan-400 text-base" href="https://adanperezportfolio.vercel.app/" target="_blank">
