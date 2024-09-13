@@ -1,50 +1,88 @@
-
-
 const Experience = () => {
     return (
-        <div className='w-1/2'>
-            <h3 className='text-3xl text-white mt-16 mb-16 font-bold'>Experience</h3>
-            <div>
-                <div className='flex flex-row h-40'>
-                    <div className='flex flex-col w-1/6 items-center justify-start'>
-                        {/* <FontAwesomeIcon className='text-2xl p-2' icon={faLinkedin} /> */}
-                        <div className="border-2-2 border-white absolute h-28 border mt-10"></div>
+        <div className='lg:w-2/3 sm:w-full p-10'>
+            <div className="sticky top-0 z-20 -mx-6 mb-4  bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 ">
+                <h2 className="text-sm font-bold uppercase text-slate-200 ">Experience</h2>
+            </div>
+            <div className=" gap-4 mb-12">
+                <div className="font-medium leading-snug text-slate-200">
+                    <div>
+                        <a className=" font-medium  text-slate-200 hover:text-cyan-400 text-base" href="https://www.itccanarias.org/" target="_blank">
+                            Full Stack Developer  -  ITC
+                        </a>
                     </div>
-                    <div className='flex flex-col w-5/6'>
-                        <p className='text-cyan-400 text-lg font-semibold'>Full Stack Developer <span className='text-white'>-</span> <span className='text-[#DAF1F9] text-base font-normal'>Instituto Tecnológico de Canarias</span></p>
-                        <p className='text-sm font-light'>May - June 2024  |  Language used 🇪🇸</p>
-                        <p className='text-base'>Development of an online store with an augmented reality glasses viewer, where users could try on the glasses before buyingthem.</p>
+                    <div className="group relative grid transition-all sm:grid-cols-8  lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                        <h3 className="z-10 mb-1 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"> March — June 2022 </h3>
+                    </div>
+                    <div>
+                        <p className="text-slate-500">
+                            Development of an application to organize and manage beach cleaning events.This project allowed me to meet people of different nationalities and their work methodologies, practice my English skills with fullcommunication in English, and improve my teamwork experience.
+                        </p>
                     </div>
                 </div>
-            </div>
-            <div>
-                <div className='flex flex-row h-40'>
-                    <div className='flex flex-col w-1/6 items-center'>
-                        {/* <FontAwesomeIcon className='text-2xl p-2' icon={faLinkedin} /> */}
-                        <div className="border-2-2 border-white absolute h-28 border mt-10"></div>
-                    </div>
-                    <div className='flex flex-col w-5/6'>
-                        <p className='text-cyan-400 text-lg font-semibold'>Full Stack Developer <span className='text-white'>-</span> <span className='text-[#DAF1F9] text-base font-normal'>IES El Rincón</span> <span className='text-white'>-</span> <span className='text-[#DAF1F9] text-base font-normal'>Erasmus Project</span> </p>
-                        <p className='text-sm font-light'>May - June 2024  |  Language used 🇬🇧</p>
-                        <p className='text-base'>Development of an application to organize and manage beach cleaning events.This project allowed me to meet people of different nationalities and their work methodologies, practice my English skills with fullcommunication in English, and improve my teamwork experience.</p>
-                    </div>
+                <div className="flex flex-wrap mt-2 gap-2">
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">JavaScript</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Tailwind CSS</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Node.js</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">MySQL</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">three.js</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Figma</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Blender</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Language used 🇪🇸</div>
                 </div>
             </div>
-            <div>
-                <div className='flex flex-row h-40'>
-                    <div className='flex flex-col w-1/6 items-center'>
-                        {/* <FontAwesomeIcon className='text-2xl p-2' icon={faLinkedin} /> */}
-                        <div className="border-2-2 border-white absolute h-14 border mt-10"></div>
+            <div className=" gap-4 mb-12">
+                <div className="font-medium leading-snug text-slate-200">
+                    <div>
+                        <a className="font-medium  text-slate-200 hover:text-cyan-400 text-base" href="https://github.com/code-voyagers3/CodeVoyagers" target="_blank">
+                            Full Stack Developer  -  IES El Rincón ◦ Erasmus Project
+                        </a>
                     </div>
-                    <div className='flex flex-col w-5/6'>
-                        <p className='text-cyan-400 text-lg font-semibold'>3D Object Modeler <span className='text-white'>-</span> <span className='text-[#DAF1F9] text-base font-normal'>ISS Tecnico Professionale </span> <span className='text-white'>-</span> <span className='text-[#DAF1F9] text-base font-normal'>Italy</span> <span className='text-white'>-</span> <span className='text-[#DAF1F9] text-base font-normal'>Erasmus Intership</span> </p>
-                        <p className='text-sm font-light'>May - June 2024  |  Language used 🇬🇧</p>
-                        <p className='text-base'>Development of an online store with an augmented reality glasses viewer, where users could try on the glasses before buyingthem.</p>
+                    <div className="group relative grid transition-all sm:grid-cols-8  lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                        <h3 className="z-10 mb-1 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"> February — March 2024 </h3>
                     </div>
+                    <div>
+                        <p className="text-slate-500">
+                            Development of an application to organize and manage beach cleaning events.This project allowed me to meet people of different nationalities and their work methodologies, practice my English skills with fullcommunication in English, and improve my teamwork experience.
+                        </p>
+                    </div>
+                </div>
+                <div className="flex flex-wrap mt-2 gap-2">
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">TypeScript</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Sass</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">SupaBase</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Vercel</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Figma</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">FigJam</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Language used 🇬🇧</div>
+                </div>
+            </div>
+            <div className=" gap-4 mb-12">
+                <div className="font-medium leading-snug text-slate-200">
+                    <div>
+                        <a className=" font-medium  text-slate-200 hover:text-cyan-400 text-base" href="https://tecnokar.it/" target="_blank">
+                            3D Object Modeler  - ISS Tecnico Professionale ◦ Erasmus Intership
+                        </a>
+                    </div>
+                    <div className="group relative grid transition-all sm:grid-cols-8  lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                        <h3 className="z-10 mb-1 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"> April — June 2022 </h3>
+                    </div>
+                    <div>
+                        <p className="text-slate-500">
+                            Erasmus internship in Spoleto, Italy, creating 3D models for a local truck trailer company.
+                        </p>
+                    </div>
+                </div>
+                <div className="flex flex-wrap mt-2 gap-2">
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Blender</div>
+                    <div className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Language used 🇬🇧</div>
                 </div>
             </div>
         </div>
     );
 }
+
 
 export default Experience;
